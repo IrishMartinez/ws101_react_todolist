@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ws101_react_todolist/static/css/main.3f49163f.css",
+    "main.js": "/ws101_react_todolist/static/js/main.029d5a19.js",
+    "static/media/OBSESSED.mp3": "/ws101_react_todolist/static/media/OBSESSED.a0fd423bb7c90dff0521.mp3",
+    "static/media/GJWHF.mp3": "/ws101_react_todolist/static/media/GJWHF.92f95fdcb130f2c86ee0.mp3",
+    "static/media/FEATHER.mp3": "/ws101_react_todolist/static/media/FEATHER.01250338cf1effbe5b72.mp3",
+    "static/media/ANYMORE.mp3": "/ws101_react_todolist/static/media/ANYMORE.f586c63656b395c03cba.mp3",
+    "static/media/FANTASIZE.mp3": "/ws101_react_todolist/static/media/FANTASIZE.7001b67c44acf0b7afd5.mp3",
+    "static/media/WHENEVER.mp3": "/ws101_react_todolist/static/media/WHENEVER.83e35f65ac6f521ba506.mp3",
+    "static/media/PLEASE.mp3": "/ws101_react_todolist/static/media/PLEASE.6670e3349f0a9c4305bf.mp3",
+    "static/media/ESPRESSO.mp3": "/ws101_react_todolist/static/media/ESPRESSO.3fe0adbbb9fb0f3ca1f3.mp3",
+    "static/media/TOUCH.mp3": "/ws101_react_todolist/static/media/TOUCH.9f2e8c3bca5ed1a601f0.mp3",
+    "index.html": "/ws101_react_todolist/index.html",
+    "main.3f49163f.css.map": "/ws101_react_todolist/static/css/main.3f49163f.css.map",
+    "main.029d5a19.js.map": "/ws101_react_todolist/static/js/main.029d5a19.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f49163f.css",
+    "static/js/main.029d5a19.js"
+  ]
+}
