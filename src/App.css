@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #667eea, #d34590, #6341ba, #ca0863);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 400% 400%; 
+  animation: gradientMovement 10s ease infinite; 
+  padding: 10px;
+}
+@keyframes gradientMovement {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #8b00a7;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+  animation: pop 0.3s ease-in-out;
+  cursor: pointer;
+}
+@keyframes pop {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+}
+h3 {
+  margin-bottom: 0.5rem;
+  font-size: .75rem;
+  animation: pop 0.3s ease-in-out;
+  color: #d34590 ;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h5 {
+  color: #8b00a7;
+}
+.play {
+  color: #ab006a;
+  background-color: #f99ac6;
+  border-radius: 10px;
+  border-color: palevioletred;
+}
+.title:active {
+  animation: pop 0.3s ease-in-out;
+}
+
+.TodoWrapper {
+  background: #f891d5;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.TodoForm {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #8c2d84;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #000000;
+}
+
+.todo-input::placeholder {
+  color: #4d02024d;
+}
+
+.todo-btn {
+  background: #d92f95;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ff079c;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.incompleted {
+  color: #fff;
+  cursor: pointer;
+}
+
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.edit-icon {
+  cursor: pointer;
+}
+.delete-icon {
+  cursor: pointer;
+}
+ 
